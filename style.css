@@ -1,0 +1,745 @@
+body{
+    background-color: #0B0D21;
+    position: relative;
+    border-radius: 40px;
+}
+
+.side-nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(162.34deg, #161A42 22.61%, rgba(22, 26, 66, 0) 118.29%);
+    border: 2px solid #2E357B;
+    border-radius: 16px;
+    width: 72px;
+    height: 1089px;
+    left: 40px;
+    top: 45px;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.side-nav-break{
+    background: linear-gradient(90deg, #2BC0E4 0%, #EAECC6 100%);
+    border: 2px solid #2E357B;
+    width: 0.5px;
+    height: 40px;
+    transform: rotate(90deg);
+}
+
+.top-nav-search{
+    text-indent: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 449px;
+    height: 56px;
+    left: 144px;
+    top: 45px;
+    background: #101432;
+    border-radius: 15px;
+    border: 2px solid #06B6D4;
+    color: white;
+}
+
+
+
+.top-nav{
+    display: flex;
+}
+
+.eth-balance{
+    color: white;
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 56px;
+    left: 638px;
+    top: 45px;
+    background: #101432;
+    border-radius: 10px;
+    border: 2px solid #06B6D4;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.n-bell{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 10px;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 774px;
+    top: 44px;
+    background: #101432;
+    border-radius: 10px;
+    border: 2px solid #FF3697;
+}
+
+.create{
+    box-sizing: border-box;
+    position: absolute;
+    width: 96px;
+    height: 56px;
+    left: 846px;
+    top: 44px;
+    background: #101432;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid #06B6D4;
+}
+
+.c-wallet{
+    box-sizing: border-box;
+    position: absolute;
+    width: 174px;
+    height: 56px;
+    left: 958px;
+    top: 44px;
+    background: #101432;
+    box-shadow: -8px 8px 16px #24332E;
+    border-radius: 10px;
+    border: 2px solid #2E357B;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.tp-hr{
+    position: absolute;
+    width: 0.5px;
+    height: 50px;
+    left: 1155px;
+    top: 38px;
+
+    background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+    border-radius: 100px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.tp-profile{
+    /* display: flex; */
+    position: absolute;
+}
+
+.tp-profile>div{
+    position: absolute;
+}
+
+.p-logo{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1175px;
+    top: 44px;
+    border-radius: 100px;
+}
+
+
+
+.p-text>h2{
+    position: absolute;
+    width: 152px;
+    height: 23px;
+    left: 1250px;
+    top: 25px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.p-text>p{
+    position: absolute;
+    width: 139px;
+    height: 18px;
+    left: 1250px;
+    top: 52px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #93C5FD;
+}
+
+.arrow{
+    position: absolute;
+    left: 1433px;
+    top: 58px;
+    /* background: #AFB5C0; */
+}
+
+.right-nav{
+    position: absolute;
+    width: 400px;
+    height: 1089px;
+    left: 1512px;
+    top: 45px;
+    background: #0F1231;
+    border-radius: 15px;
+    margin-right: 50px;
+    background: -webkit-linear-gradient(45deg, #47E2EC, #5C98DF, #A314D4);
+    box-shadow:inset -999px 0 0 #0F1231;
+    border: 4px solid transparent;
+    -moz-background-origin: border;
+    background-origin: border-box;
+}
+
+.p-title{
+    position: absolute;
+    width: 175px;
+    height: 40px;
+    left: 106px;
+    top: 32px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.bg1{
+ position: absolute;
+ top: 156px;   
+}
+
+.bg2{
+    position: absolute;
+    top: 99px;
+    left: 53px;
+}
+
+.bg3{
+    position: absolute;
+    left: 48.57px;
+    top: 220px;
+}
+
+.bg4{
+    position: absolute;
+    /* left: -2px; */
+    top: 301px;
+}
+
+.bg5{
+    position: absolute;
+    left: 375px;
+    top: 220px;
+}
+
+.bg6{
+    position: absolute;
+    left: 320px;
+    top: 320px;
+}
+
+.bg7{
+    position: absolute;
+    left: 313.57px;
+    top: 190px;
+}
+
+.bg8{
+    position: absolute;
+    left: 365px;
+    top: 124px;
+}
+
+.r-p-img{
+    position: absolute;
+    border-radius: 100%;
+    width: 104px;
+    height: 104px;
+    border: 5px solid #3461FF;
+    top: 150px;
+    left: 135px;
+}
+
+.right-nav>h3{
+    position: absolute;
+    width: 203px;
+    height: 32px;
+    left: 93px;
+    top: 274px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.cards{
+    position: absolute;
+    top: 377px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    left: 19px;
+    color: #ffffff;
+}
+
+.card>p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.no {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    /* The background is used to specify the border background */
+    background: -webkit-linear-gradient(45deg, #47E2EC, #5C98DF, #A314D4);
+    /* Background origin is the padding box by default.
+    Override to make the background cover the border as well. */
+    -moz-background-origin: border;
+    background-origin: border-box;
+    /* A transparent border determines the width */
+    border: 4px solid transparent;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow:
+      /* inset 0 0 12px #0cc, Inset shadow */
+      /* 0 0 12px #0cc, Outset shadow */
+      inset -999px 0 0 #0F1231;; /* The background color */
+  }
+
+  .nav-balance{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 28px;
+    color: #FFFFFF;
+    left: 30px;
+    top: 510px;
+  }
+
+  .nav-eth{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: absolute;
+    top: 580px;
+    left: 30px;
+    color: white;
+    width: 340px;
+    border-radius: 16px;
+    background: -webkit-linear-gradient(45deg, #47E2EC, #5C98DF, #A314D4);
+    -moz-background-origin: border;
+    background-origin: border-box;
+    border: 4px solid transparent;
+    box-shadow: inset -999px 0 0 #0f1231;
+  }
+
+  .add-eth{
+    margin-right: 15px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .add-eth>img{
+    border: 1px solid #3461FF;
+  }
+
+  .eth-money{
+    margin-left: -130px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .eth-img{
+    margin-left: 10px;
+  }
+
+  .intro-text>h2{
+    position: absolute;
+    width: 411px;
+    height: 40px;
+    left: 144px;
+    top: 145px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #E2E4E9;
+  }
+
+.intro-text{
+    display: flex;
+}
+
+  .intro-text>p{
+    position: absolute;
+    color: #5EEAD4;
+    top: 158px;
+    right: 560px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display:flex;
+    gap: 49px;
+  }
+
+  /* .nft-image1{
+    width: 1290px;
+    height: 305px;
+  } */
+
+  .nft-image>img{
+    position: absolute;
+    width: 690px;
+    height: 305px;
+    left: 814px;
+    top: 249px;
+    /* background: url(./images/unsplash_-SmCKTIcH5E.svg), #516385; */
+    border-radius: 24px;
+  }
+
+  .bid-nft{
+    position: absolute;
+    width: 650px;
+    height: 305px;
+    left: 144px;
+    top: 249px;
+    /* background: url(./images//image\ 341.svg); */
+    border-radius: 24px;
+  }
+
+  .nft-content1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 149px;
+    right: 742px;
+    top: 390px;
+    background: rgba(0, 0, 0, 0.32);
+    /* Colors/Blue/400 */
+    border: 1px solid #60A5FA;
+    backdrop-filter: blur(6px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+  }
+
+.time-info{
+    display: flex;
+    gap: 12px;
+}
+
+.time-info>img{
+    position: absolute;
+    padding-left: 12px;
+    padding-top: 18px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+  .time-left>p{
+    position: absolute;
+
+    left: 55px;
+    top: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 144%*/
+    color: #FFFFFF;
+  }
+
+  .bid-placed>p{
+    position: absolute;
+
+    left: 15rem;
+    top: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 144%*/
+    color: #FFFFFF;
+  }
+
+  .time-left>span{
+    position: absolute;
+    left: 55px;
+    top: 55px;
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    line-height: 15px;
+  }
+
+  .bid-placed>span{
+    position: absolute;
+    left: 15rem;
+    top: 55px;
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 0.5rem;
+  }
+
+  .place-a-bid{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 329px;
+    height: 36px;
+    left: 32px;
+    top: 98px;
+
+    background: rgba(22, 26, 66, 0.7);
+    /* Colors/Cyan/500 */
+
+    border: 2px solid #06B6D4;
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+  }
+
+  .place-a-bid>p{
+    width: 75px;
+    height: 20px;
+
+    /* sm/Semibold */
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .nft-content2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 149px;
+    left: 179px;
+    top: 390px;
+    background: rgba(0, 0, 0, 0.32);
+    /* Colors/Blue/400 */
+    border: 1px solid #60A5FA;
+    backdrop-filter: blur(6px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px; 
+  }
+
+  .time-info2{
+    display: flex;
+    gap: 12px;
+}
+
+.time-info2>img{
+    position: absolute;
+    padding-left: 12px;
+    padding-top: 18px;
+}
+
+.time-left2>p{
+    position: absolute;
+
+    left: 55px;
+    top: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 144%*/
+    color: #FFFFFF;
+  }
+
+  .bid-placed2>p{
+    position: absolute;
+
+    left: 15rem;
+    top: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 144%*/
+    color: #FFFFFF;
+  }
+
+  .time-left2>span{
+    position: absolute;
+    left: 55px;
+    top: 55px;
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    line-height: 15px;
+  }
+
+  .bid-placed2>p{
+    position: absolute;
+
+    left: 15rem;
+    top: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 144%*/
+    color: #FFFFFF;
+  }
+
+  .time-left2>span{
+    position: absolute;
+    left: 55px;
+    top: 55px;
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    line-height: 15px;
+  }
+
+  .bid-placed2>span{
+    position: absolute;
+    left: 15rem;
+    top: 55px;
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 0.5rem;
+  }
+
+  .place-a-bid2{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 329px;
+    height: 36px;
+    left: 32px;
+    top: 98px;
+
+    background: rgba(22, 26, 66, 0.7);
+    /* Colors/Cyan/500 */
+
+    border: 2px solid #06B6D4;
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+  }
+
+  .place-a-bid2>p{
+    width: 75px;
+    height: 20px;
+
+    /* sm/Semibold */
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .tp-seller-txt{
+    position: absolute;
+    left: 144px;
+    top: 600px;
+  }
