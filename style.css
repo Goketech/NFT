@@ -743,3 +743,103 @@ body{
     left: 144px;
     top: 600px;
   }
+
+  .sellers--infos{
+    position: absolute;
+    display: flex;
+    top: 660px;
+    left: 144px;
+    gap: 4rem;
+  }
+
+.seller-info{
+    display: flex;
+    gap: 1rem;
+}
+
+.seller-info>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.seller-txt{
+    justify-content: center;
+}
+
+.username{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #FAFAFB;
+    width: fit-content;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.olowo{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5EEAD4;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.pg-bar{
+    position: absolute;
+    left: 144px;
+    top: 743px;
+    width: 414.42px;
+    height: 8px;
+    background: linear-gradient(90deg, #2193B0 0%, #6DD5ED 100%);
+    border-radius: 20px;
+    border: none;
+}
+
+.pg-bar2{
+    position: absolute;
+    width: 900px;
+    height: 8px;
+    left: 557px;
+    top: 743px;
+    background: #161A42;
+    border-radius: 20px;
+    border: none;
+}
+
+.hot-intro{
+    position: absolute;
+    left: 144px;
+    top: 799px;
+}
+
+.container-bid{
+    border-bottom: solid 100px #161a42;
+    /* border-left: solid 115px transparent; */
+    border-right: solid 75px transparent;
+    width: 106px;
+    position: absolute;
+    height: 7px;
+    left: 144px;
+    top: 840px;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-bid>p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FAFAFB;
+    padding-left: 12px;
+}
