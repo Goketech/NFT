@@ -39,7 +39,7 @@ body{
     top: 45px;
     background: #101432;
     border-radius: 15px;
-    border: 2px solid #06B6D4;
+    border: 2px solid #2E357B;
     color: white;
 }
 
@@ -59,7 +59,7 @@ body{
     top: 45px;
     background: #101432;
     border-radius: 10px;
-    border: 2px solid #06B6D4;
+    border: 2px solid #2E357B;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -80,7 +80,7 @@ body{
     top: 44px;
     background: #101432;
     border-radius: 10px;
-    border: 2px solid #FF3697;
+    border: 2px solid #2E357B;
 }
 
 .create{
@@ -98,7 +98,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    border: 2px solid #06B6D4;
+    border: 2px solid #2E357B;
 }
 
 .c-wallet{
@@ -111,13 +111,17 @@ body{
     background: #101432;
     box-shadow: -8px 8px 16px #24332E;
     border-radius: 10px;
-    border: 2px solid #2E357B;
     color: #fff;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    background: -webkit-linear-gradient(45deg, #1fa2ff, #12d8fa, #A6ffcb);
+    box-shadow:inset -999px 0 0 #0F1231;
+    border: 3px solid transparent;
+    -moz-background-origin: border;
+    background-origin: border-box;
 }
 
 .tp-hr{
@@ -985,7 +989,8 @@ body {
 
 .price-and-img{
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
+    /* justify-content: space-between; */
 }
 
 .price-and-img p{
