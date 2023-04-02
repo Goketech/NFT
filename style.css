@@ -441,7 +441,7 @@ body{
     border-radius: 24px;
   }
 
-  .bid-nft{
+  .nft-con{
     position: absolute;
     width: 650px;
     height: 305px;
@@ -456,7 +456,7 @@ body{
     position: absolute;
     width: 400px;
     height: 149px;
-    right: 742px;
+    left:   832px;
     top: 390px;
     background: rgba(0, 0, 0, 0.32);
     /* Colors/Blue/400 */
