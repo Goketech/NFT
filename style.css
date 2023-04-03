@@ -13,10 +13,10 @@ body{
     background: linear-gradient(162.34deg, #161A42 22.61%, rgba(22, 26, 66, 0) 118.29%);
     border: 2px solid #2E357B;
     border-radius: 16px;
-    width: 72px;
+    width: 42px;
     height: 1089px;
-    left: 40px;
-    top: 45px;
+    left: 2px;
+    top: 10px;
     align-items: center;
     gap: 3.5rem;
 }
@@ -33,10 +33,10 @@ body{
     text-indent: 20px;
     box-sizing: border-box;
     position: absolute;
-    width: 449px;
+    width: 250px;
     height: 56px;
-    left: 144px;
-    top: 45px;
+    left: 55px;
+    top: 10px;
     background: #101432;
     border-radius: 15px;
     border: 2px solid #2E357B;
@@ -55,8 +55,8 @@ body{
     position: absolute;
     width: 120px;
     height: 56px;
-    left: 638px;
-    top: 45px;
+    left: 310px;
+    top: 10px;
     background: #101432;
     border-radius: 10px;
     border: 2px solid #2E357B;
@@ -76,8 +76,8 @@ body{
     position: absolute;
     width: 56px;
     height: 56px;
-    left: 774px;
-    top: 44px;
+    left: 440px;
+    top: 10px;
     background: #101432;
     border-radius: 10px;
     border: 2px solid #2E357B;
@@ -88,8 +88,8 @@ body{
     position: absolute;
     width: 96px;
     height: 56px;
-    left: 846px;
-    top: 44px;
+    left: 505px;
+    top: 10px;
     background: #101432;
     border-radius: 10px;
     color: white;
@@ -106,8 +106,8 @@ body{
     position: absolute;
     width: 174px;
     height: 56px;
-    left: 958px;
-    top: 44px;
+    left: 610px;
+    top: 10px;
     background: #101432;
     box-shadow: -8px 8px 16px #24332E;
     border-radius: 10px;
@@ -128,8 +128,8 @@ body{
     position: absolute;
     width: 0.5px;
     height: 50px;
-    left: 1155px;
-    top: 38px;
+    left: 800px;
+    top: 6px;
 
     background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
     border-radius: 100px;
@@ -149,8 +149,8 @@ body{
     position: absolute;
     width: 56px;
     height: 56px;
-    left: 1175px;
-    top: 44px;
+    left: 810px;
+    top: 10px;
     border-radius: 100px;
 }
 
@@ -160,8 +160,8 @@ body{
     position: absolute;
     width: 152px;
     height: 23px;
-    left: 1250px;
-    top: 25px;
+    left: 880px;
+    top: 10px;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 600;
@@ -174,8 +174,8 @@ body{
     position: absolute;
     width: 139px;
     height: 18px;
-    left: 1250px;
-    top: 52px;
+    left: 880px;
+    top: 30px;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -186,8 +186,8 @@ body{
 
 .arrow{
     position: absolute;
-    left: 1433px;
-    top: 58px;
+    left: 1040px;
+    top: 35px;
     /* background: #AFB5C0; */
 }
 
@@ -196,7 +196,7 @@ body{
     width: 400px;
     height: 1089px;
     left: 1519px;
-    top: 45px;
+    top: 10px;
     background: #0F1231;
     border-radius: 15px;
     margin-right: 50px;
@@ -396,15 +396,15 @@ body{
 
   .intro-text>h2{
     position: absolute;
-    width: 411px;
-    height: 40px;
-    left: 144px;
-    top: 145px;
+    /* width: 200px; */
+    height: 20px;
+    left: 90px;
+    top: 90px;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 40px;
+    line-height: 20px;
     color: #E2E4E9;
   }
 
@@ -415,8 +415,8 @@ body{
   .intro-text>p{
     position: absolute;
     color: #5EEAD4;
-    top: 158px;
-    right: 560px;
+    top: 95px;
+    left: 800px;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 700;
@@ -426,18 +426,21 @@ body{
     gap: 49px;
   }
 
-  /* .nft-image1{
-    width: 1290px;
+  .nft-image1>img{
+    position: absolute;
+    width: 490px;
     height: 305px;
-  } */
+    left: 90px;
+    top: 249px;
+    border-radius: 24px;
+  }
 
   .nft-image>img{
     position: absolute;
     width: 690px;
     height: 305px;
-    left: 814px;
+    left: 620px;
     top: 249px;
-    /* background: url(./images/unsplash_-SmCKTIcH5E.svg), #516385; */
     border-radius: 24px;
   }
 
@@ -456,7 +459,7 @@ body{
     position: absolute;
     width: 400px;
     height: 149px;
-    left:   932px;
+    left:   652px;
     top: 390px;
     background: rgba(0, 0, 0, 0.32);
     /* Colors/Blue/400 */
@@ -591,7 +594,7 @@ body{
     position: absolute;
     width: 400px;
     height: 149px;
-    left: 179px;
+    left: 100px;
     top: 390px;
     background: rgba(0, 0, 0, 0.32);
     /* Colors/Blue/400 */
@@ -1032,4 +1035,17 @@ body {
     background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%);
     border: 1px solid #2E357B;
     border-radius: 20px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+/* MOBILE DEVICE */
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
 }
