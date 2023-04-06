@@ -1150,12 +1150,59 @@ body {
   }
 
   .nft-image>img{
-    position: relative;
-    width: 290px;
+    position: absolute;
+    width: 300px;
     height: 305px;
     left: 70px;
-    top: 599px;
+    top: 550px;
     border-radius: 24px;
+  }
+
+  .nft-content1{
+   
+    width: 250px;
+    height: 100px;
+    left:   90px;
+    top: 670px;
+   
+  }
+  .time-info {
+    gap: 0;
+  }
+  .time-info>img {
+    padding-left: 0;
+    padding-top: 2px;
+  }
+  .time-left>p {
+    left: 35px;
+    top: -6px;
+    font-size: 12px;
+  }
+
+  .time-left>span {
+    font-size: 10px;
+    top: 30px;
+    left: 35px;
+  }
+
+  .bid-placed>p{
+    font-size: 12px;
+    left: 150px;
+    top: -6px;
+  }
+
+  .bid-placed>span {
+    font-size: 10px;
+    left: 150px;
+    top: 30px;
+  }
+
+  .place-a-bid {
+    padding: 5px 15px;
+    width: 100px;
+    top: 60px;
+    height: 30px;
+    left: 70px;
   }
 
   .tp-seller-txt {
