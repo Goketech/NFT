@@ -1057,16 +1057,16 @@ body {
    
     width: 290px;
     height: 305px;
-    left: 70px;
-    top: 249px;
+    left: 60px;
+    top: 149px;
     border-radius: 24px;
   }
   .nft-content2{
     
     width: 250px;
     height: 149px;
-    left: 90  px;
-    top: 390px;
+    left: 90px;
+    top: 290px;
     
   }
   .time-info2{
@@ -1153,8 +1153,8 @@ body {
     position: absolute;
     width: 300px;
     height: 305px;
-    left: 70px;
-    top: 550px;
+    left: 60px;
+    top: 450px;
     border-radius: 24px;
   }
 
@@ -1163,7 +1163,7 @@ body {
     width: 250px;
     height: 100px;
     left:   90px;
-    top: 670px;
+    top: 570px;
    
   }
   .time-info {
@@ -1210,35 +1210,35 @@ body {
   }
 
   .tp-seller-txt {
-    top: 900px;
+    top: 800px;
     left: 70px;
   }
 
   .sellers--infos {
-    top: 1000px;
+    top: 900px;
     flex-direction: column;
     left: 70px;
   }
 
   .pg-bar {
-    top: 850px;
+    top: 750px;
     left: 70px;
     width: 100px;
   }
 
   .pg-bar2 {
-    top: 850px;
+    top: 750px;
     left: 170px;
     width: 200px;
   }
   .hot-intro {
-    top: 1700px;
+    top: 1600px;
     left: 70px;
   }
 
   .hot-bids-items {
     flex-direction: column;
-    top: 900px;
+    top: 800px;
  
   }
 
