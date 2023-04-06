@@ -1197,6 +1197,10 @@ body {
     top: 30px;
   }
 
+  .intro-text>h2 {
+    font-size: 20px;
+  }
+
   .place-a-bid {
     padding: 5px 15px;
     width: 100px;
@@ -1206,27 +1210,35 @@ body {
   }
 
   .tp-seller-txt {
-    top: 1000px;
+    top: 900px;
+    left: 70px;
   }
 
   .sellers--infos {
-    top: 1060px;
+    top: 1000px;
     flex-direction: column;
+    left: 70px;
   }
 
   .pg-bar {
-    top: 900px;
+    top: 850px;
+    left: 70px;
+    width: 100px;
   }
 
   .pg-bar2 {
-    top: 900px;
+    top: 850px;
+    left: 170px;
+    width: 200px;
   }
   .hot-intro {
-    top: 2000px;
+    top: 1700px;
+    left: 70px;
   }
 
   .hot-bids-items {
     flex-direction: column;
-    top: 1210px;
+    top: 900px;
+    left: 70px;
   }
 }
