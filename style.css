@@ -1239,6 +1239,35 @@ body {
   .hot-bids-items {
     flex-direction: column;
     top: 900px;
+ 
+  }
+
+  .hot-bid-item1 {
     left: 70px;
+  }
+
+  .hot-bid-item2 {
+    left: 70px;
+    top: 1190px;
+  }
+
+  .hot-bid-item3 {
+    left: 70px;
+    top: 1530px;
+  }
+
+  .hot-bid-item4 {
+    left: 70px;
+    top: 1879px;
+  }
+
+  .hot-bid-item5 {
+    left: 70px;
+    top: 2199px;
+  }
+
+  .hot-bid-item6 {
+    left: 70px;
+    top: 2509 px;
   }
 }
