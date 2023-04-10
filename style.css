@@ -1273,3 +1273,6 @@ body {
 }
 
 
+/* TABLET DEVICE */
+
+@media screen and (max-width: 480px) {}
